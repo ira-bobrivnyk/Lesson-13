@@ -951,20 +951,26 @@ img {
     transition-timing-function: ease-in;
 }
 
-.founders__cover .founders__title-h3 {
-    transition: transform 200ms ease-in;
-    transform: translateY(-50px);
+
+.founders__cover {
+     .founders__title-h3 {
+        transition: transform 200ms ease-in;
+        transform: translateY(-50px);
+        }
+        
+    .founders__title-h4 {
+        transition: transform 200ms ease-in;
+        transform: translateY(50px);
+        }
+        
 }
 
-.founders__cover .founders__title-h4 {
-    transition: transform 200ms ease-in;
-    transform: translateY(50px);
-}
-
-.founders__item:hover .founders__cover .founders__title-h3 {
+.founders__item:hover .founders__cover {
     opacity: 1;
-    transition: transform 200ms ease-in;
-    transform: translateY(0);
+    .founders__title-h3  {
+        transition: transform 200ms ease-in;
+        transform: translateY(0);
+    }
 }
 
 .founders__item:hover .founders__cover .founders__title-h4 {
