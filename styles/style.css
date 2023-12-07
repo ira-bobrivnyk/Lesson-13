@@ -101,35 +101,38 @@ img {
     border: none;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .chat__icon {
     fill: currentColor;
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
+    width: 56px;
+    height: auto;
 }
 
 
 
 .header {
+    position: sticky;
+    top: 0;
     background-color: #F9F9FF;
     line-height: 1;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin: 0;
-    position: sticky;
-    top: 0;
 }
 
 
 .header-nav__list {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 30px;
     list-style: none;
+    width: 100%
 }
+
 
 .header-nav__item_logo {
     flex: 1;
@@ -217,7 +220,8 @@ img {
     margin-bottom: 50px;
 }
 
-.hero-text {
+.hero-description {
+    width: 50%;
     margin-left: 80px;
 }
 
